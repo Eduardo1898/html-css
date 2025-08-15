@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, rgb(167, 243, 167), rgb(142, 189, 142));
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3em;
+    background-color: rgb(0, 73, 0);
+    color: wheat;
+}
+
+.subtitulo{
+    text-decoration: underline;
+}
+
+.basico{
+    color: rgb(73, 0, 0);
+    font-weight: bold;
+}
+
+.intermediario{
+    color: rgb(73, 72, 0);
+    font-weight: bold;
+}
+
+.avançado{
+color: rgb(0, 5, 73);
+font-weight: bold;
+}
