@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Exercício</title>
+    <style>
+        #container{
+            position: relative;
+
+            background-color: blue;
+            height: 100vh;
+            
+            padding: 10px;
+        }
+
+        #content{
+            position: absolute;
+
+            background-color: red;
+            height: 200px;
+            width: 200px;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
-   
+   <div id="container">
 
-<form action="welcome.php" method="POST">
-Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-<input type="submit">
-</form>
+   </div>
+
+   <div id="content">
+
+   </div>
 
 
 </body>
