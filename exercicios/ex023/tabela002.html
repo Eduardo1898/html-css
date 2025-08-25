@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big tables</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            position: relative;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+    
+        td, th{
+            width: 500px;
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        tbody tr:nth-child(odd){
+            background-color: lightgray;
+        }
+
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <th scope="col">Estados</th>
+            <th>População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 973 194</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td>00000</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nobis earum, cupiditate perspiciatis consectetur animi fuga debitis! Ut, officia aliquam voluptatem quidem doloribus velit, beatae eveniet, provident tempora pariatur temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime, accusantium quam officiis mollitia, corporis asperiores architecto deleniti earum ipsam ratione harum fugit pariatur tempora ut nihil, libero illum obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, omnis! Nulla minima nesciunt aperiam nobis amet. Obcaecati molestiae vitae nostrum dicta, nam cupiditate aspernatur! Beatae, delectus? Itaque accusamus atque sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, doloremque. Quia architecto quibusdam labore sint earum repellat voluptatem aspernatur ad, autem enim molestias, nihil fugiat sed qui, deleniti ratione natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aut, blanditiis ipsa consequatur voluptas, suscipit quod excepturi omnis adipisci quam deserunt est? Iusto repellendus non, ex nihil illo ullam illum.</p> 
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nobis earum, cupiditate perspiciatis consectetur animi fuga debitis! Ut, officia aliquam voluptatem quidem doloribus velit, beatae eveniet, provident tempora pariatur temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime, accusantium quam officiis mollitia, corporis asperiores architecto deleniti earum ipsam ratione harum fugit pariatur tempora ut nihil, libero illum obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, omnis! Nulla minima nesciunt aperiam nobis amet. Obcaecati molestiae vitae nostrum dicta, nam cupiditate aspernatur! Beatae, delectus? Itaque accusamus atque sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, doloremque. Quia architecto quibusdam labore sint earum repellat voluptatem aspernatur ad, autem enim molestias, nihil fugiat sed qui, deleniti ratione natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aut, blanditiis ipsa consequatur voluptas, suscipit quod excepturi omnis adipisci quam deserunt est? Iusto repellendus non, ex nihil illo ullam illum.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nobis earum, cupiditate perspiciatis consectetur animi fuga debitis! Ut, officia aliquam voluptatem quidem doloribus velit, beatae eveniet, provident tempora pariatur temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime, accusantium quam officiis mollitia, corporis asperiores architecto deleniti earum ipsam ratione harum fugit pariatur tempora ut nihil, libero illum obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, omnis! Nulla minima nesciunt aperiam nobis amet. Obcaecati molestiae vitae nostrum dicta, nam cupiditate aspernatur! Beatae, delectus? Itaque accusamus atque sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, doloremque. Quia architecto quibusdam labore sint earum repellat voluptatem aspernatur ad, autem enim molestias, nihil fugiat sed qui, deleniti ratione natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aut, blanditiis ipsa consequatur voluptas, suscipit quod excepturi omnis adipisci quam deserunt est? Iusto repellendus non, ex nihil illo ullam illum.</p>
+</body>
+</html>
