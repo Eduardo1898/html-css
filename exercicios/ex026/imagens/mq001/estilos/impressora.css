@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* impressão */
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header ul li{
+    display: none;
+}
