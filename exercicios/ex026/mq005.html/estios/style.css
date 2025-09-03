@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Mobile */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: lightgray;
+}
+
+menu li{
+    display: inline-block;
+    background-color: darkgray;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
