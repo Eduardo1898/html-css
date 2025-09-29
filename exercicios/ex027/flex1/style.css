@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    min-height: 800px;
+    border: 8px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+}
